@@ -3,6 +3,9 @@ This is the css format for home.html
 Author: Yuren Sun
 */
 
+
+/*  box and containers */
+
 .box {
     width: 100%;
     height: 100%;
@@ -28,10 +31,6 @@ Author: Yuren Sun
     margin: 20% 10%;
 }
 
-.img {
-    width: 70%;
-}
-
 .right {
     width: 70%;
     height: 100%;
@@ -47,20 +46,20 @@ Author: Yuren Sun
     /* background-color: pink; */
 }
 
-.button {
-    /*used for buttons*/
-    width: fit-content;
-    height: 20px;
-    background: #eef7f9;
-    margin: 0 2%;
-    text-align: center;
+
+/* imgs */
+
+.personal_img {
+    width: 70%;
 }
 
-.break {
-    margin: 5% auto;
-    width: 80%;
-    color: #987cb9;
+.project_img {
+    width: 40%;
+    float: left;
 }
+
+
+/* texts */
 
 .name {
     font-family: "Times New Roman";
@@ -96,4 +95,22 @@ Author: Yuren Sun
     font-family: "Times New Roman";
     font-weight: bold;
     font-size: 22px;
+}
+
+
+/* misc */
+
+.button {
+    /*used for buttons*/
+    width: fit-content;
+    height: 20px;
+    background: #eef7f9;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.break {
+    margin: 5% auto;
+    width: 80%;
+    color: #987cb9;
 }
