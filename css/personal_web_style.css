@@ -16,6 +16,10 @@ Author: Yuren Sun
     font-family: "Times New Roman";
     font-size: 20px;
     overflow: hidden;
+    /* fix position */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .left {
@@ -37,14 +41,13 @@ Author: Yuren Sun
     height: 100%;
     /* background-color: #f00; */
     float: right;
-    overflow-wrap: normal;
     overflow: scroll;
     text-align: left;
+    display: flexbox;
 }
 
 .right_container {
-    margin: 10% 3%;
-    /* background-color: pink; */
+    margin: 3% 3% auto 3%;
 }
 
 
@@ -56,6 +59,7 @@ Author: Yuren Sun
 
 .project_img {
     width: 30%;
+    max-width: 250px;
     float: left;
 }
 
@@ -114,6 +118,25 @@ Author: Yuren Sun
     font-size: 22px;
 }
 
+.right_container a:link {
+    /* color for links */
+    color: #126bae;
+    text-decoration: none;
+}
+
+.right_container a:visited {
+    color: #185888;
+}
+
+.right_container a:hover {
+    color: #185888;
+    text-decoration: underline;
+}
+
+.right_container a:active {
+    color: #185888;
+}
+
 
 /* misc */
 
@@ -127,7 +150,33 @@ Author: Yuren Sun
 }
 
 .break {
-    margin: 5% auto;
+    margin: 60px auto;
     width: 80%;
     color: #987cb9;
+}
+
+
+/* menu */
+
+.menu {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: #f4efea;
+    height: max-content;
+    /* max-height: max-content; */
+    width: 100%;
+}
+
+.menu_container {
+    padding: 10px 2%;
+}
+
+.menu_container a {
+    display: inline-block;
+    color: rgb(94, 92, 92);
+    font-size: 25px;
+    line-height: 25px;
+    margin: 5px 30px 5px 0;
+    text-decoration: none;
 }
