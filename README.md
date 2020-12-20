@@ -1,6 +1,12 @@
 # Personal-Website
 Files for my personal website on https://pages.cs.wisc.edu/~yuren/
 
+Designed and built by Yuren Sun. Partly powered by Bootstrap.
+
+Currently v2.0. under MIT License. Feel free to fork this repo :D
+
+## Logs: 
+
 2020-12-20: update to v2.0, added contents till Fall 2020 and update some styles with bootstrap for better visualization
 
 2020-08-30: modify styles, added menu bar, add more details for the contents
