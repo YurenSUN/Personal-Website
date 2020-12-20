@@ -25,7 +25,7 @@ Author: Yuren Sun
 .left {
     width: 30%;
     height: 100%;
-    background-color: #f9e8d0;
+    background-color: #dae4ec;
     float: left;
     text-align: left;
     margin: 0;
@@ -48,7 +48,6 @@ Author: Yuren Sun
 
 .right_container {
     margin: 0% 3% auto 3%;
-    /* top: 40px; */
 }
 
 
@@ -69,10 +68,11 @@ Author: Yuren Sun
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 4px;
+    margin-bottom: 4px;
 }
 
 .icon-row {
@@ -136,6 +136,18 @@ Author: Yuren Sun
 
 .right_container a:active {
     color: #185888;
+}
+
+.left_container .copyright {
+    position: relative;
+    bottom: 0px;
+    color: gray;
+    font-weight: light;
+    font-size: 10px;
+}
+
+.left_container .copyright p{
+    margin: 0 auto;
 }
 
 
